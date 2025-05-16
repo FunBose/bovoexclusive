@@ -22,7 +22,7 @@ with cent_co:
 st.header('Women Evening Dresses')
 st.info("## Elegant Evening Dresses")
 st.image(image=Image.open("Evening_dress_1.png")) 
-
+#print('J')
 st.success("## Diverse culture")
 st.image(image=Image.open("Evening_dress_2.png")) 
 
