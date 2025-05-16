@@ -12,7 +12,7 @@ st.header('Bespoke Fashion Designing at affordable prices')
 st.subheader('Based in South Korea, but takes order and deliver anywhere, any time')
 
 st.info("## The CEO of BOVO: Victoria Ogunbo")
-img = Image.open("Bovo_Icon.jpg")
+img = Image.open("Bovo_Icon.JPG")
 # #img = Image.open(r"C:\Users\Ogunbo\Documents\Language_subtitles\Jide_Ogunbo_Photo.jpg")
 left_co, cent_co,last_co = st.columns(3)
 with cent_co:
