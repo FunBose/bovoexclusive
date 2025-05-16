@@ -37,6 +37,8 @@ st.info("## Pretty Evening Dresses")
 st.image(image=Image.open("Evening_dress_6.png")) 
 st.info("## Pretty Evening Dresses")
 st.image(image=Image.open("Evening_dress_7.png")) 
+st.info("## Elegant Evening Dresses")
+st.image(image=Image.open("Evening_dress_8.png")) 
 
 st.info("## Safari Suit")
 col1s, col2s = st.columns(2)
