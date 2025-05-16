@@ -22,7 +22,7 @@ with cent_co:
 st.header('Women Evening Dresses')
 st.info("## Elegant Evening Dresses")
 st.image(image=Image.open("Evening_dress_1.png")) 
-#print('J')
+
 st.success("## Diverse culture")
 st.image(image=Image.open("Evening_dress_2.png")) 
 
@@ -31,14 +31,14 @@ st.image(image=Image.open("Evening_dress_3.png"))
 
 st.info("## Pretty Evening Dresses")
 st.image(image=Image.open("Evening_dress_4.png")) 
-st.info("## Pretty Evening Dresses")
+st.info("## Exotic Evening Dresses")
 st.image(image=Image.open("Evening_dress_5.png")) 
-st.info("## Pretty Evening Dresses")
+st.info("## Beautiful Evening Dresses")
 st.image(image=Image.open("Evening_dress_6.png")) 
 st.info("## Pretty Evening Dresses")
 st.image(image=Image.open("Evening_dress_7.png")) 
 st.info("## Elegant Evening Dresses")
-st.image(image=Image.open("Evening_dress_8.png")) 
+st.image(image=Image.open("Evening_dress_8.png"))  
 
 st.info("## Safari Suit")
 col1s, col2s = st.columns(2)
