@@ -1,0 +1,4 @@
+streamlit
+streamlit-carousel
+pillow
+pandas
