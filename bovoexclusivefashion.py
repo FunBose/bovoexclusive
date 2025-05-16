@@ -1,4 +1,4 @@
-# RUN WITH C:\Users\IniOluwa\Streamlit_app\venv\Scripts\python.exe C:\Users\IniOluwa\Streamlit_app\venv\Scripts\streamlit.exe run C:\Users\IniOluwa\Streamlit_app\IniOluwa_2025_Science_Fair\IniOluwa_Ogunbo_2025_Science_Fair_Photo_Log.py
+# RUN WITH C:\Users\IniOluwa\BOVO\venv\Scripts\python.exe C:\Users\IniOluwa\BOVO\venv\Scripts\streamlit.exe run C:\Users\IniOluwa\BOVO\bovoexclusivefashion.py
 # https://pypi.org/project/streamlit-carousel/
 # Set-ExecutionPolicy Unrestricted -Scope Process
 
@@ -19,6 +19,25 @@ with cent_co:
     st.image(image=img) #,width=300)
 
 # st.image(image=img,width=100)
+st.header('Women Evening Dresses')
+st.info("## Elegant Evening Dresses")
+st.image(image=Image.open("Evening_dress_1.png")) 
+
+st.success("## Diverse culture")
+st.image(image=Image.open("Evening_dress_2.png")) 
+
+st.info("## Pretty Evening Dresses")
+st.image(image=Image.open("Evening_dress_3.png")) 
+
+st.info("## Pretty Evening Dresses")
+st.image(image=Image.open("Evening_dress_4.png")) 
+st.info("## Pretty Evening Dresses")
+st.image(image=Image.open("Evening_dress_5.png")) 
+st.info("## Pretty Evening Dresses")
+st.image(image=Image.open("Evening_dress_6.png")) 
+st.info("## Pretty Evening Dresses")
+st.image(image=Image.open("Evening_dress_7.png")) 
+
 st.info("## Safari Suit")
 col1s, col2s = st.columns(2)
 with col1s:
