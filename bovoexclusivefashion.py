@@ -6,7 +6,6 @@ import streamlit as st # pip install streamlit
 from streamlit_carousel import carousel # pip install streamlit-carousel 
 from PIL import Image # pip install pillow
 import pandas as pd
-
 def wide_space_default():
     st.set_page_config(layout= "wide")  #(layout=“wide”)
 
@@ -18,7 +17,7 @@ st.subheader('Based in South Korea, but takes order and deliver anywhere, any ti
 
 st.info("## The CEO of BOVO: Victoria Ogunbo")
 #img = Image.open("Bovo_Icon.JPG")
-##img = Image.open(r"C:\Users\Ogunbo\Documents\Language_subtitles\Jide_Ogunbo_Photo.jpg")
+# #img = Image.open(r"C:\Users\Ogunbo\Documents\Language_subtitles\Jide_Ogunbo_Photo.jpg")
 left_co, cent_co,last_co = st.columns(3)
 with cent_co:
     st.image(image=Image.open("Bovo_Icon.JPG")) #,width=300)
@@ -28,7 +27,7 @@ with left_co:
 
 st.header('African Day Attire')
 st.info("## Beautiful Nigerian style")
-st.image(image=Image.open("Mrs_Inex_2.png")) 
+st.image(image=Image.open("Mrs_Inex_4.png")) 
 
 st.success("## Slides: Beautiful Nigerian style")
 test_inex1 = [
@@ -50,10 +49,29 @@ test_inex1 = [
         img="Mrs_Inex_3.png",
         
     ),
+    dict(
+        title="Slide 4",
+        text="Pretty",
+        img="Mrs_Inex_4.png",
+        
+    ),
+    dict(
+        title="Slide 5",
+        text="Pretty",
+        img="Mrs_Inex_5.png",
+        
+    ),
     
 ]
 carousel(items=test_inex1)
 
+st.header('Men Senator Suit')
+st.info("## Gorgeous")
+colj1, colj2 = st.columns(2)
+with colj1:
+    st.image(image=Image.open("Jide_Suit_Like_1.png")) #,width=300)
+with colj2:
+    st.image(image=Image.open("Jide_Suit_Like_2.png")) #,width=300) 
 
 # st.image(image=img,width=100)
 st.header('Women Evening Dresses')
