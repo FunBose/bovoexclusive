@@ -9,6 +9,7 @@ import pandas as pd
 
 def wide_space_default():
     st.set_page_config(layout= "wide")  #(layout=“wide”)
+    
 wide_space_default()
 
 st.info('# BOVO Exclusive International Fashion Designer')
