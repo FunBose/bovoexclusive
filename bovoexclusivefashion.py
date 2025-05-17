@@ -7,6 +7,10 @@ from streamlit_carousel import carousel # pip install streamlit-carousel
 from PIL import Image # pip install pillow
 import pandas as pd
 
+def wide_space_default():
+    st.set_page_config(layout= "wide")  #(layout=“wide”)
+wide_space_default()
+
 st.info('# BOVO Exclusive International Fashion Designer')
 st.header('Bespoke Fashion Designing at affordable prices')
 st.subheader('Based in South Korea, but takes order and deliver anywhere, any time')
