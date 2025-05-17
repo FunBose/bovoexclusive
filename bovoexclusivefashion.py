@@ -12,11 +12,43 @@ st.header('Bespoke Fashion Designing at affordable prices')
 st.subheader('Based in South Korea, but takes order and deliver anywhere, any time')
 
 st.info("## The CEO of BOVO: Victoria Ogunbo")
-img = Image.open("Bovo_Icon.JPG")
+#img = Image.open("Bovo_Icon.JPG")
 # #img = Image.open(r"C:\Users\Ogunbo\Documents\Language_subtitles\Jide_Ogunbo_Photo.jpg")
 left_co, cent_co,last_co = st.columns(3)
 with cent_co:
-    st.image(image=img) #,width=300)
+    st.image(image=Image.open("Bovo_Icon.JPG")) #,width=300)
+with left_co:
+    st.image(image=Image.open("Bovo_Icon_Sitting.jpg")) #,width=300) 
+#==================================================================
+
+st.header('African Day Attire')
+st.info("## Beautiful Nigerian style")
+st.image(image=Image.open("Mrs_Inex_2.png")) 
+
+st.success("## Slides: Beautiful Nigerian style")
+test_inex1 = [
+    dict(
+        title="Slide 1",
+        text="Elegant",
+        img="Mrs_Inex_1.png",
+        
+    ),
+    dict(
+        title="Slide 2",
+        text="Pretty",
+        img="Mrs_Inex_2.png",
+        
+    ),
+    dict(
+        title="Slide 3",
+        text="Pretty",
+        img="Mrs_Inex_3.png",
+        
+    ),
+    
+]
+carousel(items=test_inex1)
+
 
 # st.image(image=img,width=100)
 st.header('Women Evening Dresses')
@@ -38,7 +70,7 @@ st.image(image=Image.open("Evening_dress_6.png"))
 st.info("## Pretty Evening Dresses")
 st.image(image=Image.open("Evening_dress_7.png")) 
 st.info("## Elegant Evening Dresses")
-st.image(image=Image.open("Evening_dress_8.png"))  
+st.image(image=Image.open("Evening_dress_8.png")) 
 
 st.info("## Safari Suit")
 col1s, col2s = st.columns(2)
@@ -226,6 +258,35 @@ ibeneme = [
     
 ]
 carousel(items=ibeneme)
+
+#=====================================================================
+st.header('Women in Magenta African Print')
+st.info("## Beautiful Magenta African Prints")
+st.image(image=Image.open("Sis_Vicky_1.png")) 
+
+st.success("## Slides: Beautiful Magenta African Prints")
+test_vicky1 = [
+    dict(
+        title="Slide 1",
+        text="Elegant",
+        img="Sis_Vicky_1.png",
+        
+    ),
+    dict(
+        title="Slide 2",
+        text="Pretty",
+        img="Sis_Vicky_2.png",
+        
+    ),
+    dict(
+        title="Slide 3",
+        text="Pretty",
+        img="Sis_Vicky_3.png",
+        
+    ),
+    
+]
+carousel(items=test_vicky1)
 
 
 #df = pd.read_csv("Grade_5_Science_Experiment_Log.csv")
